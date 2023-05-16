@@ -1,0 +1,10 @@
+
+# ignore file
+
+
+# lock files
+*.lock
+
+# object file
+*.o
+*.class
