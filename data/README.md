@@ -33,6 +33,8 @@
 		- Example:
 			```
 			constraint1 = [1, type.hot, 1, size.l]
+
 			-> constaint1 = type.hot && size.l
+			
 			if type.hot is true and size.l is also true, the constraint1 is true, which means the relation between type.hot and size.l is invalid
 			```
