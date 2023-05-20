@@ -1,0 +1,46 @@
+
+.itemSelection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: inherit;
+	min-width: 300px;
+	width: 300px;
+}
+
+.itemButton {
+	display: flex;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	align-items: center;
+	height: 40px;
+	max-width: 100%;
+	width: var(--max-width);
+  	transition: background 1s, border 1s;
+}
+
+.itemContainer {
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	max-width: 100%;
+	width: var(--max-width);
+}
+
+.categoryButton {
+	margin: 10px 10px 10px 10px;
+	align-items: flex-end;
+	padding: 1rem 1.2rem;
+  	transition: background 1s, border 1s;
+  	max-width: inherit;
+	width: 100%;
+}
+
+.nevigationContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	max-width: 100%;
+	width: var(--max-width);
+}
