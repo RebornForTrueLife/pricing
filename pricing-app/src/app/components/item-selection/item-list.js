@@ -7,7 +7,7 @@ export default function ItemList({ category }) {
 	const itemNames = Object.getOwnPropertyNames(category);
 	const itemList = itemNames.map((name) => {
 		return (
-			<div className={itemSelectionStyles.itemContainer}>
+			<div key={name} className={itemSelectionStyles.itemContainer}>
 				<Item key={name} item={category[name]}/>
 			</div>
 		);

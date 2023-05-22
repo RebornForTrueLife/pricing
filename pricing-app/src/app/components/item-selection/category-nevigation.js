@@ -7,7 +7,7 @@ export default function CategoryNevigation({ categories }) {
 	const categoryNames = Object.getOwnPropertyNames(categories);
 	const categoryList = categoryNames.map((name) => {
 		return (
-			<div> 
+			<div key={name}> 
 				<CategoryButton key={name} categoryName={name} /> 
 			</div>
 		);
